@@ -45,7 +45,9 @@ const cycles = [
   },
 ];
 export default function Home() {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(
+    Math.floor(Math.random() * cycles.length)
+  );
   useEffect(() => {
     const loadImages = (cycles: any) => {
       cycles.forEach((cycle: any) => {
