@@ -1,0 +1,22 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  padding-left: 2em;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  .logo {
+    width: 300px;
+    margin-top: -10px;
+  }
+  .left {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    .socials {
+      display: flex;
+      gap: 0.25em;
+    }
+  }
+}
